@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>asthma adventure</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="jquery.lightbox-0.5.css" media="screen" />
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="page">
+    <div class="wrap">
+      <div class="prava">
+        <div class="iphone">
+          <img src="img/app.jpg" alt="Application" />
+        </div>
+        <a href="https://itunes.apple.com/us/app/" class="store"></a>
+      </div>        
+      <div class="left">
+        <div class="top">
+          <div class="menu">
+            <ul> 
+              <li><a href="#features">Features</a></li>
+              <li><a href="#screens">Screenshots</a></li>
+              <li class="last"><a href="#about">About Us</a></li>
+            </ul>
+          </div>
+          <h1>Join the adventure!</h1>
+          <h2>Keep track of your</h2>
+          <p class="top">It has never been easier! Curabitur id imperdiet est. Fusce fringilla sodales ipsum, et pretium metus ullamcorper eget. Phasellus venenatis elit ut magna egestas eleifend. <a href="https://itunes.apple.com/us/app/" class="getit">Get the app</a></p>         
+        </div>
+        <div class="features">        
+          <h3><a name="features"></a>Our app features</h3>
+          <div class="feature">
+            <h4>Gamification powered</h4>
+            <p>Curabitur id imperdiet est. Fusce fringilla sodales ipsum, et pretium metus ullamcorper eget. Phasellus venenatis elit ut magna egestas eleifend.</p>
+          </div>
+          <div class="feature">
+          <h4>Cool feature #2</h4>
+          <p>Curabitur id imperdiet est. Fusce fringilla sodales ipsum, et pretium metus ullamcorper eget. Phasellus venenatis elit ut magna egestas eleifend.</p>
+          </div>
+          <div class="feature">
+          <h4>Cool feature #3</h4>
+          <p>Quisque sollicitudin vulputate turpis, ac convallis arcu ultrices malesuada. Phasellus a lorem quis mi fringilla mattis. Nulla massa velit, dignissim sed congue lobortis, lacinia sed leo. Praesent aliquam iaculis elit, viverra porta odio lacinia eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse a arcu diam, sit amet euismod justo.</p>
+          </div>
+        </div>      
+      </div>
+      <div class="full">
+        <hr style="margin: 20px 0 60px 0;"/>
+        <h3><a name="screens"></a>Screenshots</h3>
+        <div id="gallery">
+          <div class="screen">
+            <img src="img/main-screen.png" alt="Main screen" width="200" height="152"/>
+            <a href="img/main-screen.png" title="Main screen" class="vice"></a>
+          </div>
+          <div class="screen">
+            <img src="holder.js/200x152" alt="Trophy cabinet" />
+            <a href="img/main-screen.png" title="Trophy cabinet" class="vice"></a>
+          </div>
+          <div class="screen">
+            <img src="holder.js/200x152" alt="Screen" />
+            <a href="img/main-screen.png" title="Screen 3" class="vice"></a>
+          </div>
+          <div class="screen" style="margin-right: 0;">
+            <img src="holder.js/200x152" alt="Contact screen" />
+            <a href="img/main-screen.png" title="Contact screen" class="vice"></a>
+          </div>
+        </div>
+        
+        <div style="clear: both;"></div>        
+        <hr style="margin: 80px 0 60px 0;"/>
+        <div style="clear: both;"></div>
+        <h3 class="small">About Us</h3>
+        <h3 class="big"><a name="about"></a>About Us</h3>
+        <p class="about">This app was developed in the Health Hack 2013 event at Dublin, and is only meant as a proof of concept.</p>
+        <p class="about">The team: Grainne Dowdall, Eoin Connolly, Enrique Moreno. Original idea by Grainne Dowdall.</p>
+        <p class="about"><strong>Our email:</strong> <a href="#">team@asthmaadventure.com</a></p>
+        <div style="clear: both;"></div>
+        <div class="site">
+             Stay in touch:
+             <div style="clear: both; height: 15px;"></div>
+             <a href="http://www.twitter.com"><img src="img/twitter.jpg" alt="Twitter" /></a>
+             <a href="http://www.facebook.com"><img src="img/facebook.jpg" alt="Facebook" /></a>
+          </div>
+          <div style="clear: both;"></div>
+      </div>
+      <div class="footer">
+      Made with <img src="img/srdce.jpg" alt="Love" /> by the Asthma Adventure team @ Dublin Health Hack.</a>
+      <br />
+      Apple, the logo and iPhone are trademarks of Apple Inc., registered in U.S. and other countries.
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+  <script type="text/javascript" src="js/holder.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script> 
+</body>
+</html>
